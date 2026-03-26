@@ -22,7 +22,7 @@
  *******************************************************/
 
 /**
- * TODO 1:
+ * Done 1:
  * First of all, we need to be able to read the text again,
  * without the risk of catching an eye infection!
  */
@@ -48,7 +48,7 @@ document.body.removeChild(fakelist);
 
 
 /**
- * Todo 3:
+ * Doone 3:
  * Wow! You are so powerful! Quick now, set our heroes of the web free!
  * And while at it, let the world know again, that they are back in town!
  */
@@ -59,7 +59,7 @@ let town = document.getElementsByTagName("p")[1];
 town.textContent = "Let us introduce to you our list of Web-Heroes:";
 
 /**
- * TODO 4:
+ * Done 4:
  * Our Webpage is safe again! But Dr. Dom is still holding our Headline as a hostage!
  * Do your thing, savior!
  */
@@ -68,7 +68,7 @@ let texttitle = document.getElementById("title");
 texttitle.textContent = "We, the mighty Heroes of the web, will protect you!";
 
 /**
- * TODO 5:
+ * Done 5:
  * You saved the day, again! I knew I could count on you. Our Website is restored,
  * our heroes are freed and there is no sign, Dr. DOM has ever done his evil.
  *

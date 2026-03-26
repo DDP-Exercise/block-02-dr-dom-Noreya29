@@ -21,50 +21,50 @@ const X = "Savior (X)";
 const O = "Dr. DOM (O)";
 
 //Some of your epic battles:
-const BATTLEFIELD =
-    [
-        [O, X, O],
-        [X, X, X],
-        [O, O, X],
-    ];
+ const BATTLEFIELD =
+     [
+         [O, X, O],
+         [X, X, X],
+         [O, O, X],
+     ];
 
 
 // const BATTLEFIELD =
-//     [
-//         [null, X, X],
-//         [X, O, null],
-//         [O, O, O],
-//     ];
+//      [
+//          [null, X, X],
+//          [X, O, null],
+//          [O, O, O],
+//      ];
+//  const BATTLEFIELD =
+//       [
+//           [O, O, X],
+//           [X, O, X],
+//           [O, X, X],
+//       ];
 // const BATTLEFIELD =
-//     [
-//         [O, O, X],
-//         [X, O, X],
-//         [O, X, X],
-//     ];
-// const BATTLEFIELD =
-//     [
-//         [O, X, X],
-//         [X, O, X],
-//         [O, X, O],
-//     ];
+//      [
+//          [O, X, X],
+//          [X, O, X],
+//          [O, X, O],
+//      ];
 //
 // const BATTLEFIELD =
-//     [
-//         [O, X, X, X],
-//         [X, O, X, O],
-//         [O, X, O, X],
-//         [X, O, X, X],
-//     ];
-// const BATTLEFIELD =
-//     [
-//         [O, X, X, X, null],
-//         [X, O, X, O, O],
-//         [O, X, O, null,  X],
-//         [X, null, X, O, O],
-//         [X, null, O, X, O],
-//     ];
+//      [
+//          [O, X, X, X],
+//          [X, O, X, O],
+//          [O, X, O, X],
+//          [X, O, X, X],
+//      ];
+//  const BATTLEFIELD =
+//       [
+//           [O, X, X, X, null],
+//           [X, O, X, O, O],
+//           [O, X, O, null,  X],
+//           [X, null, X, O, O],
+//           [X, null, O, X, O],
+//       ];
 
-//TODO: Check if the battle is over, and if so, announce the winner!
+//Done: Check if the battle is over, and if so, announce the winner!
 
 // Check Horizontal
 const size = BATTLEFIELD.length;
